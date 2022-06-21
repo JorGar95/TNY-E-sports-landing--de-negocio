@@ -66,12 +66,20 @@ body {
     color: rgb(255, 255, 255);
 }
 .jumbotron {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background: url(../Imagenes/caratula.png)  center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 70px 0px;
+    font-style: arial;
+    font-size: 20px;
 }
-button {
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
     background-color: rgb(170, 28, 28);
     text-decoration: none;
     color: #fff;
@@ -84,4 +92,7 @@ button {
     font-weight: 900;
     font-size: 20px;
     margin-bottom: 18px;
+}
+button:hover {
+    background-color: rgb(223, 94, 94);
 }

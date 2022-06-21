@@ -1,0 +1,87 @@
+body {
+    font-family: 'red hat display' sans-serif;
+    background-image: url(../Imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor {
+    width: 100%;
+    height: 90px;
+    max-width: 2000px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.contenedor > div{
+    height: 20px;
+    display: block;
+    padding: 30px;
+    color: #fff;
+}
+.relative{
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    background-image: url(../Imagenes/logo.png);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+.boton {
+    margin: 0px -70px;
+    text-decoration: none;
+    color: #fff;
+}
+.boton2 {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.boton3 {
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.boton4 {
+    margin: 70px;
+    text-decoration: none;
+    color: #fff;
+}
+.boton:hover {
+    color: rgb(255, 255, 255);
+}
+.boton2:hover {
+    color: rgb(255, 255, 255);
+}
+.boton3:hover {
+    color: rgb(255, 255, 255);
+}
+.boton4:hover {
+    color: rgb(255, 255, 255);
+}
+.jumbotron {
+    color: #fff;
+    background: url(../Imagenes/caratula.png)  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button {
+    background-color: rgb(170, 28, 28);
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;
+    display: block;
+    margin: 75px 10px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 18px;
+}

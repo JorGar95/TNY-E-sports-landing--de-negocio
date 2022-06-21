@@ -1,6 +1,12 @@
 .contenedor {
     display: grid;
-    grid-template-columns: 100px 150px 250px 160px 2000px;
+    grid-template-columns: 100px 150px 250px 160px 700px;
     grid-template-rows: 500px;
     gap: 300pxs;
+}
+.bloque {
+    display: grid;
+    grid-template-columns: 5px 250px 250px 250px;
+    grid-template-rows: 650px;
+    gap: 200px;
 }

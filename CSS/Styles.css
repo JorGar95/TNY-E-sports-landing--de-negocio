@@ -54,16 +54,16 @@ body {
     color: #fff;
 }
 .boton:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(185, 156, 156);
 }
 .boton2:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(185, 156, 156);
 }
 .boton3:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(185, 156, 156);
 }
 .boton4:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(185, 156, 156);
 }
 .jumbotron {
     color: rgb(255, 255, 255);
@@ -178,4 +178,30 @@ button:hover {
 .parrafo3 {
     text-align: center;
     margin: 37px 120px 50px;
+}
+.jumbotron-2 {
+    color: rgb(255, 255, 255);
+    background: rgb(49, 12, 12)  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 70px 0px;
+    font-style: arial;
+    font-size: 20px;
+}
+.button-3 {
+    background: rgb(18, 76, 235);
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    width: 170px;
+    height: 60px;
+    border-radius: 8px;
+    display: block;
+    margin: 75px 10px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.button-3:hover {
+    background-color: rgb(17, 138, 236);
 }

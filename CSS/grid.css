@@ -1,6 +1,6 @@
 .contenedor {
     display: grid;
-    grid-template-columns: 100px 150px 250px 160px 700px;
+    grid-template-columns: 100px 150px 250px 160px 1000px;
     grid-template-rows: 500px;
     gap: 300pxs;
 }
@@ -8,5 +8,5 @@
     display: grid;
     grid-template-columns: 5px 250px 250px 250px;
     grid-template-rows: 650px;
-    gap: 200px;
+    gap: 250px;
 }

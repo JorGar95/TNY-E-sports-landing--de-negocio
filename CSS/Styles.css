@@ -110,15 +110,12 @@ button:hover {
     font-size: 20px;
     line-height: 20px;
     text-align: center;
-    border: solid 5px red;
 }
 .bloque > div {
     height: 495px;
     display: block;
     padding: 30px;
     color: #fff;
-    background: red;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .25);
 }
 .main-container {
     overflow: hidden;
@@ -127,6 +124,7 @@ button:hover {
     margin: 0px;
     border-radius: 8px;
     background-color: #fff;
+    color: rgb(0, 0, 0);
 }
 .imagen1 {
     background-image: url(../Imagenes/Objetivos.jpg);
@@ -137,6 +135,7 @@ button:hover {
     background-image: url(../Imagenes/Lalo.png);
     height: 100px;
     width: 100px;
+    margin: 10px;
     border-radius: 50px;
 }
 .imagen2 {
@@ -148,6 +147,7 @@ button:hover {
     background-image: url(../Imagenes/Hearx.jpg);
     height: 100px;
     width: 100px;
+    margin: 10px;
     border-radius: 50px;
 }
 .imagen3 {
@@ -159,6 +159,7 @@ button:hover {
     background-image: url(../Imagenes/Jorge.jpg);
     height: 90px;
     width: 90px;
+    margin: 10px;
     border-radius: 50px;
 }
 .parrafo {
@@ -169,4 +170,12 @@ button:hover {
 .parrafo1 {
     text-align: center;
     margin: 0 100px;
+}
+.parrafo2 {
+    text-align: center;
+    margin: 125px;
+}
+.parrafo3 {
+    text-align: center;
+    margin: 37px 120px 50px;
 }

@@ -205,3 +205,18 @@ button:hover {
 .button-3:hover {
     background-color: rgb(17, 138, 236);
 }
+.Footer {
+    width: 90%;
+    height: 90px;
+    max-width: 2000px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.Footer > div{
+    height: 550px;
+    display: block;
+    padding: 30px;
+    color: #000;
+}

@@ -6,7 +6,24 @@
 }
 .bloque {
     display: grid;
-    grid-template-columns: 5px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px;
     grid-template-rows: 650px;
-    gap: 250px;
+    gap: 300px;
+    margin: 150px;
+}
+@media screen and (max-width: 600px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 100px 150px 20px 20px 600px;
+        grid-template-rows: 500px;
+        gap: 10px;
+    }
+    .bloque {
+        display: grid;
+        grid-template-columns: 0px 500px 500px 500px;
+        grid-template-rows: 650px;
+        gap: 10px;
+        display: inline-block;
+        margin: 0 20px;
+}
 }

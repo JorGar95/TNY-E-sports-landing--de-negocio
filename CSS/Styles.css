@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contenedor {
     width: 100%;
     height: 90px;
@@ -13,19 +14,23 @@ body {
     line-height: 20px;
     text-align: center;
 }
-.contenedor > div{
+
+.contenedor>div {
     height: 20px;
     display: block;
     padding: 30px;
     color: #fff;
 }
-.relative{
+
+.relative {
     justify-content: space-between;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     background-image: url(../Imagenes/logo.png);
     height: 50px;
@@ -33,52 +38,63 @@ body {
     background-size: cover;
     margin: 10px;
 }
+
 .boton {
     margin: 0px -70px;
     text-decoration: none;
     color: #fff;
 }
+
 .boton2 {
     margin: 0px 10px;
     text-decoration: none;
     color: #fff;
 }
+
 .boton3 {
     margin: 20px;
     text-decoration: none;
     color: #fff;
 }
+
 .boton4 {
     margin: 70px;
     text-decoration: none;
     color: #fff;
 }
+
 .boton:hover {
     color: rgb(185, 156, 156);
 }
+
 .boton2:hover {
     color: rgb(185, 156, 156);
 }
+
 .boton3:hover {
     color: rgb(185, 156, 156);
 }
+
 .boton4:hover {
     color: rgb(185, 156, 156);
 }
+
 .jumbotron {
     color: rgb(255, 255, 255);
-    background: url(../Imagenes/caratula.png)  center;
+    background: url(../Imagenes/caratula.png) center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 70px 0px;
     font-style: arial;
     font-size: 20px;
 }
+
 .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .button {
     background-color: rgb(170, 28, 28);
     text-decoration: none;
@@ -93,15 +109,18 @@ body {
     font-size: 20px;
     margin-bottom: 18px;
 }
+
 button:hover {
     background-color: rgb(223, 94, 94);
 }
+
 .email {
     border-radius: 10px;
     margin: 10px 0px;
     width: 600px;
     height: 50px;
 }
+
 .bloque {
     width: 100%;
     height: 500px;
@@ -111,12 +130,14 @@ button:hover {
     line-height: 20px;
     text-align: center;
 }
-.bloque > div {
+
+.bloque>div {
     height: 495px;
     display: block;
     padding: 30px;
     color: #fff;
 }
+
 .main-container {
     overflow: hidden;
     width: 328px;
@@ -126,11 +147,13 @@ button:hover {
     background-color: #fff;
     color: rgb(0, 0, 0);
 }
+
 .imagen1 {
     background-image: url(../Imagenes/Objetivos.jpg);
     height: 162px;
     background-size: cover;
 }
+
 .imagen11 {
     background-image: url(../Imagenes/Lalo.png);
     height: 100px;
@@ -138,11 +161,13 @@ button:hover {
     margin: 10px;
     border-radius: 50px;
 }
+
 .imagen2 {
     background-image: url(../Imagenes/Competitivo.png);
     height: 162px;
     background-size: cover;
 }
+
 .imagen22 {
     background-image: url(../Imagenes/Hearx.jpg);
     height: 100px;
@@ -150,11 +175,13 @@ button:hover {
     margin: 10px;
     border-radius: 50px;
 }
+
 .imagen3 {
     background-image: url(../Imagenes/streams.png);
     height: 162px;
     background-size: cover;
 }
+
 .imagen33 {
     background-image: url(../Imagenes/Jorge.jpg);
     height: 90px;
@@ -162,32 +189,38 @@ button:hover {
     margin: 10px;
     border-radius: 50px;
 }
+
 .parrafo {
-    text-align:left;
+    text-align: left;
     margin-bottom: 32px;
     padding: 0 50px;
 }
+
 .parrafo1 {
     text-align: center;
     margin: 0 100px;
 }
+
 .parrafo2 {
     text-align: center;
     margin: 125px;
 }
+
 .parrafo3 {
     text-align: center;
     margin: 37px 120px 50px;
 }
+
 .jumbotron-2 {
     color: rgb(255, 255, 255);
-    background: rgb(49, 12, 12)  center;
+    background: rgb(49, 12, 12) center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 70px 0px;
     font-style: arial;
     font-size: 20px;
 }
+
 .button-3 {
     background: rgb(18, 76, 235);
     text-decoration: none;
@@ -197,26 +230,98 @@ button:hover {
     height: 60px;
     border-radius: 8px;
     display: block;
-    margin: 75px 10px;
+    margin: 75px 40px;
     font-weight: 900;
     font-size: 20px;
     margin-bottom: 18px;
 }
+
 .button-3:hover {
     background-color: rgb(17, 138, 236);
 }
-.Footer {
-    width: 90%;
-    height: 90px;
-    max-width: 2000px;
-    margin: 0;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-.Footer > div{
-    height: 550px;
-    display: block;
-    padding: 30px;
-    color: #000;
+
+footer {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0;
+}
+
+.Container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    max-width: 400px;
+}
+
+.column1 h1 {
+    font-size: 22px;
+}
+
+.column1 p {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.column2 {
+    max-width: 400px;
+}
+
+.column2 h1 {
+    font-size: 22px;
+}
+
+.column2 .fila {
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila img {
+    width: 36px;
+    height: 36px;
+}
+
+.fila label {
+    margin-top: 2px;
+    margin-left: 15px;
+    color: #000000;
+}
+
+.column3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 22px;
+}
+
+.fila2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.fila2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 100px;
 }
